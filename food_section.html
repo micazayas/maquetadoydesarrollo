@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Kuala Lumpur|Gastronomía</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+  <body>
+    <header>
+        <nav class="dark">
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">HOME</a>
+              <a href="arquitecture_section.html">ARQUITECTURA</a>
+              <a href="food_section.html">GASTRONOMÍA</a>
+            </div>
+            
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776; MENÚ</button>
+            </div>
+            </nav>
+            <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "500px";
+                document.getElementById("main").style.marginLeft = "500px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+    </header>
+      <main>
+        <!--header section-->
+        <section class="headerFood">
+          <div class="headerArquitecture__button">
+            <figure><a href="https://covidnow.moh.gov.my/kul/?refresh=1634386180904" target="_blank"><img class="header__icon" src="multimedia/icono/covid.svg" alt="estadisticas corona virus kuala lumpur"></a></figure>
+            <figure><a href="https://www.bbc.com/weather/1735161" target="_blank"><img class="header__icon" src="multimedia/icono/weather.svg" alt="clima en kuala lumpur"></a></figure>
+            <figure><a href="https://www.google.com/maps/d/viewer?mid=1iHuKf2pe7XygXqWGDzV_womxZU0&ll=3.152214488157381%2C101.69483900000002&z=13" target="_blank"><img class="header__icon" src="multimedia/icono/location.svg" alt="mapa de la ciudad de kuala lumpur"></a></figure>
+          </div>          
+          <h1 class="header__subtitle"><span class="header__subtitle--firstspan" style="color:rgb(255, 70, 70)">Gastro-</span><span class="header__subtitle--lastspan" style="color:whitesmoke">nomia</span></h1>
+        </section>
+        <!--End header section-->
+
+        <!--Featured flavours section-->
+        <section class="foodFeatured">
+            <div>
+            <h2 class="header__subtitle food__subtitle--aling"><span class="header__subtitle--firstspan" style="color:rgb(255, 70, 70)">sabores</span><span class="header__subtitle--lastspan" style="color: rgb(19, 18, 18)">destacados</span></h2>
+            <p class="foodFeatured__text">Malasia es un paraíso para los amantes de la buena comida: las influencias indias, chinas y portuguesas se notan tanto en sus calles como en sus platos. 
+            Si la gastronomía tailandesa, india o china son mundialmente conocidas y apreciadas, pocos saben que Malasia es uno de los países con mayor cultura gastronómica del mundo.
+            No te pierdas de probar los platos recomendados de nuestro <strong>TOP 3.</strong></p>
+            </div>  
+            <figure><img class="food__image food__image--rotate" src="multimedia/gastronomia/2_market.jpg" alt="food of Kuala Lumpur"></figure> 
+        </section>
+        <!--End Featured flavours section-->
+
+        <!--Cards section-->
+        <section class="foodCardsSection">
+          <div><h3 class="trends">top 3</h3></div>
+          <div class="foodCards">
+            <article class="foodCard">
+              <figure><img class="foodCard__image" src="multimedia/gastronomia/3_foodcard.jpg" alt="Plato de Hokkien Mee" /></figure>
+              <div class="foodCard__body">
+                <h3 class="foodCard__body--title">hokkien mee</h3>
+                <p class="foodCard__body--text">Estos noodles fritos son siempre un acierto, sobre todo en Kuala Lumpur.
+                  Los ingredientes principales son noodles fritos en salsa de soja, carne, sepia, repollo y cortezas de cerdo.</p>
+                  <div class="foodCard__body--price"><p class="foodCard__body--bold">Rango de precio</p><span class="foodCard__body--title">$10-$25</span></div>
+              </div>
+            </article>
+            <article class="foodCard">
+              <figure><img class="foodCard__image" src="multimedia/gastronomia/4_foodcard.jpg" alt="Plato de Charsiew Rice" /></figure>
+              <div class="foodCard__body">
+                <h3 class="foodCard__body--title">Charsiew rice</h3>
+                <p class="foodCard__body--text">Otro plato de arroz con carne, esta vez se trata de cerdo hecho a la barbacoa
+                  que tiene un sabor dulzón que y espolvoreado con castañas de Cajú que simplemente enamora. </p>
+                <div class="foodCard__body--price"><p class="foodCard__body--bold">Rango de precio</p><span class="foodCard__body--title">$10-$25</span></div>
+              </div>
+            </article>
+            <article class="foodCard">
+              <figure><img class="foodCard__image" src="multimedia/gastronomia/5_foodcard.jpg" alt="Plato de Laksa" /></figure>
+              <div class="foodCard__body">
+                <h3 class="foodCard__body--title">Laksa</h3>
+                <p class="foodCard__body--text">En Malasia las opciones para comer sopa no faltan, aunque si tienes que elegir una… que sea laksa!
+                  Hay de dos tipos : fideos cocidos en leche de coco o en sopa de pescado y tamarindo.</p>
+                <div class="foodCard__body--price" ><p class="foodCard__body--bold">Rango de precio</p><span class="foodCard__body--title">$10-$25</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- End Cards section-->
+
+        <!--App Food section-->
+        <section class="food">
+            <div>
+                <div><p class="food__text food__text--margin"><span class="food__text--firstspan">¿Dónde</span><span class="food__text--lastspan">Comer?</span></p></div>
+                <div><p class="food__text--content">Descargate la APP <strong>“FOOD OF KUALA LUMPUR” </strong> para encontrar diferentes restaurantes para los diferentes tipo de viajeros.</p></div>
+                <div class="food__app">
+                  <img class="food__appDownload" src="multimedia/icono/appstore.jpg" alt="logo para redigir al App Store">
+                  <img class="food__appDownload" src="multimedia/icono/googleplay.jpg" alt="logo para redigir al Google Play ">
+                </div>
+            </div>
+            <div><img class="food__appImage" src="multimedia/gastronomia/6_app.png" alt="food of Kuala Lumpur"></div> 
+            <div><h2 class="food__subtitle food__subtitle--margin"><span class="food__subtitle--firstspan" style="color:rgb(255, 70, 70)">¿Dónde</span><span class="food__subtitle--lastspan" style="color:black">comer?</span></h2></div>
+        </section>
+        <!-- End App Food section-->
+
+        <!--Kind of restaurant section-->
+        <section>
+          <div><h3 class="trends">¿Dónde?</h3></div>
+            <div class="restaurant">
+                <div class="restaurant__option"><img class= "restaurant__option--img" src="multimedia/gastronomia/7_airelibre.jpg" alt="restaurants al aire libre"><span class= "restaurant__option--span" >lujo</span></div> 
+                <div class="restaurant__option"><img class= "restaurant__option--img" src="multimedia/gastronomia/8_mercados.jpg" alt="comer en mercados callejeros"><span class= "restaurant__option--span" >mercados</span></div> 
+                <div class="restaurant__option"><img class= "restaurant__option--img" src="multimedia/gastronomia/9_tipico.jpg" alt="restaurants tipicos"><span class= "restaurant__option--span" >tipico</span></div> 
+                <div class="restaurant__option"><img class= "restaurant__option--img" src="multimedia/gastronomia/10_lujo.jpg" alt="restaurants de lujo"><span class= "restaurant__option--span" >malayo</span></div> 
+            </div>
+        </section>
+        <!--End kind of restaurant section-->
+      </main>  
+
+        <!--footer section-->
+        <footer>
+          <section class="ft__main">
+              <div class="info__column">
+                  <ul class="info__column">
+                    <li><a class="info__column--list" href="index.html">HOME</a></li>
+                    <li><a class="info__column--list" href="arquitecture_section.html">ARQUITECTURA</a></li>
+                    <li><a class="info__column--list" href="food_section.html">GASTRONOMÍA</a></li>
+                    <li><a class="info__column--list" href="#">HOTELES</a></li>
+                    <li><a class="info__column--list" href="#">FAQS</a></li>
+                  </ul>
+              </div>
+              <div class="info__column">
+              <div>
+                <ul>
+                    <li>Calle Malaya 1900</li>
+                    <li>Kuala Lumpur - Malasia</li>
+                    <li>+54 1131061205</li>
+                    <li>kualalumpurl@gmail.com</li>
+                </ul>
+              </div>
+              <div class="socialMedia">
+                <div><a href="https://es-es.facebook.com/" target="_blank"><img  src="multimedia/icono/facebook.svg" alt="facebook"></a></div> 
+                <div><a href="https://www.instagram.com/" target="_blank"><img  src="multimedia/icono/instagram.svg" alt="instagram"></a></div> 
+                <div><a href="https://www.twitter.com/" target="_blank"><img  src="multimedia/icono/twitter.svg" alt="Twitter"></a></div> 
+                <div><a href="https://www.youtube.com/" target="_blank"><img  src="multimedia/icono/youtube.svg" alt="youtube"></a></div> 
+              </div>
+            </div>
+            <div class="info__column">
+              <form class="newsletter">
+                <div>
+                    <h3 class="newsletter__title">Boletín informativo</h3>
+                    <p>Suscribite el newsletter ingresando tu e-mail:</p>
+                    <input class="newsletter__button" type="text" placeholder="correo eléctronico" name="mail" required>
+                    <input class="newsletter__button" type="submit" value="Enviar">
+                </div>
+              </form>
+            </div>
+          </section> 
+      </footer>
+    </body>
+</html>

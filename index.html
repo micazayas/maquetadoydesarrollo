@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Kuala Lumpur|Home</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <header>
+        <nav class="dark">
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">HOME</a>
+              <a href="arquitecture_section.html">ARQUITECTURA</a>
+              <a href="food_section.html">GASTRONOMÍA</a>
+            </div>
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776; MENÚ</button>
+            </div>
+        </nav>
+        <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "500px";
+                document.getElementById("main").style.marginLeft = "500px";
+              }
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+        </script>
+    </header>
+    <main>
+      <section class="header">
+        <div class="headerArquitecture__button">
+          <figure><a href="https://covidnow.moh.gov.my/kul/?refresh=1634386180904" target="_blank"><img class="header__icon" src="multimedia/icono/covid.svg" alt="estadisticas corona virus kuala lumpur"></a></figure>
+          <figure><a href="https://www.bbc.com/weather/1735161" target="_blank"><img class="header__icon" src="multimedia/icono/weather.svg" alt="clima en kuala lumpur"></a></figure>
+          <figure><a href="https://www.google.com/maps/d/viewer?mid=1iHuKf2pe7XygXqWGDzV_womxZU0&ll=3.152214488157381%2C101.69483900000002&z=13" target="_blank"><img class="header__icon" src="multimedia/icono/location.svg" alt="mapa de la ciudad de kuala lumpur"></a></figure>
+          </div>
+        <h1 class="header__subtitle"><span class="header__subtitle--firstspan" style="color:rgb(255, 70, 70)">Kuala-</span><span class="header__subtitle--lastspan" style="color:whitesmoke">Lumpur</span></h1>
+        </section>
+
+        <section class="arquitecture">
+          <div>
+            <h2 class="arquitecture__subtitle"><span class="arquitecture__subtitle--firstspan" style="color:rgb(255, 70, 70)">Arqui-</span><span class="arquitecture__subtitle--lastspan" style="color: rgb(19, 18, 18)">Tectura</span></h2>
+              <p class="arquitectureSection__description">Kuala Lumpur concentra la innovación y la modernidad de una gran ciudad con gran cantidad de zonas naturales y una gran mezcla de culturas en barrios muy exóticos. </p>
+              <a class="button button__arquitecture" href="arquitecture_section.html">Descubrír</a>
+          </div>
+        </section>
+        <section class="food">
+            <div><p class="food__text"><span class="food__text--firstspan">Gastro-</span><span class="food__text--lastspan">nomIa</span></p></div>
+              <div><img class="food__image" src="multimedia/home/4_gastronomia.jpg" alt="food of Kuala Lumpur"></div> 
+                <div><h2 class="food__subtitle"><span class="food__subtitle--firstspan" style="color:rgb(255, 70, 70)">Gastro-</span><span class="food__subtitle--lastspan" style="color:black">nomia</span></h2>
+                  <a class="button button__food" href="food_section.html">Reservar</a></div> 
+        </section>
+        <section class="rental">
+            <div class="rental__container">
+              <h2 class="rental__subtitle"><span class="rental__subtitle--firstspan" style="color:rgb(255, 70, 70)">Hospe-</span><span class="rental__subtitle--lastspan" style="color:whitesmoke">daje</span></h2>
+                <a class="button button__rental" href="https://www.booking.com/" target="_blank">Descubrír</a>
+            </div>
+            <div class= "button__image">
+                <div class="buttonHover"><img  class= "button__image--hover" src="multimedia/home/6_hoteles.jpg" alt="book hotel"><span class= "button__image--span" >hoteles</span></div> 
+                <div class="buttonHover"><img  class= "button__image--hover" src="multimedia/home/7_casas.jpg" alt="book house"><span class= "button__image--span" >casas</span></div> 
+                <div class="buttonHover"><img  class= "button__image--hover" src="multimedia/home/8_apartamento.jpg" alt="book flat"><span class= "button__image--span" >pisos</span></div> 
+                <div class="buttonHover"><img  class= "button__image--hover" src="multimedia/home/9_hostel.jpg" alt="book hostel"><span class= "button__image--span" >hostel</span></div> 
+            </div>
+        </section>
+        <section class="faqs">
+          <div>
+          <h2 class="faqs__subtitle"><span class="faqs__subtitle--firstspan" style="color:rgb(255, 70, 70)">Preguntas</span><span class="faqs__subtitle--lastspan" style="color:black">Frecuentes</span></h2>
+            <a href="http://www.visitkl.gov.my/visitklv2/" target="_blank" class="button button__faqs">+info</a> 
+          </div>
+        </section>
+    </main>
+    <!--Footer section-->
+    <footer>
+        <section class="ft__main">
+            <div class="info__column">
+                <ul class="info__column">
+                  <li><a class="info__column--list" href="index.html">HOME</a></li>
+                  <li><a class="info__column--list" href="arquitecture_section.html">ARQUITECTURA</a></li>
+                  <li><a class="info__column--list" href="food_section.html">GASTRONOMÍA</a></li>
+                  <li><a class="info__column--list" href="#">HOTELES</a></li>
+                  <li><a class="info__column--list" href="#">FAQS</a></li>
+                </ul>
+            </div>
+            <div class="info__column">
+            <div>
+              <ul>
+                  <li>Calle Malaya 1900</li>
+                  <li>Kuala Lumpur - Malasia</li>
+                  <li>+54 1131061205</li>
+                  <li>kualalumpurl@gmail.com</li>
+              </ul>
+            </div>
+            <div class="socialMedia">
+              <div><a href="https://es-es.facebook.com/" target="_blank"><img  src="multimedia/icono/facebook.svg" alt="facebook"></a></div> 
+              <div><a href="https://www.instagram.com/" target="_blank"><img  src="multimedia/icono/instagram.svg" alt="instagram"></a></div> 
+              <div><a href="https://www.twitter.com/" target="_blank"><img  src="multimedia/icono/twitter.svg" alt="Twitter"></a></div> 
+              <div><a href="https://www.youtube.com/" target="_blank"><img  src="multimedia/icono/youtube.svg" alt="youtube"></a></div> 
+            </div>
+          </div>
+          <div class="info__column">
+            <form class="newsletter">
+              <div>
+                  <h3 class="newsletter__title">Boletín informativo</h3>
+                  <p>Suscribite el newsletter ingresando tu e-mail:</p>
+                  <input class="newsletter__button" type="text" placeholder="correo eléctronico" name="mail" required>
+                  <input class="newsletter__button" type="submit" value="Enviar">
+              </div>
+            </form>
+          </div>
+        </section> 
+    </footer>
+    </body>
+</html>
