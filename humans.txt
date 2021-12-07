@@ -1,0 +1,21 @@
+                            
+/* TEAM */
+                 
+	Web designer: Micaela Zayas
+	Guthub: https://github.com/micazayas
+	From: Múnich, Alemania.
+
+                         
+							
+/* THANKS */
+						
+	Associate Professor: Ricardo Rodriguez
+	From: Buenos Aires, Argentina.
+
+						
+                            
+/* SITE */
+                            
+	Last update: 2021/12/04                     
+	Standards: HTML5, CSS3, JS, SASS                            
+	IDE: VSC,  Illustrator, Photoshop
