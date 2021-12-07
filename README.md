@@ -1,3 +1,3 @@
 # maquetadoydesarrollo
 segundo parcial
-https://micazayas.github.io/maquetadoydesarrollo/
+Github page: https://micazayas.github.io/maquetadoydesarrollo/
